@@ -1,0 +1,134 @@
+@import url(http://fonts.googleapis.com/css?family=Marmelad&subset=latin,cyrillic);
+body{
+	background-image:url(../images/bg-fon.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100%;
+	background-color: #000;
+	display: block;
+	font-size: 16px;
+	font-family: 'Marmelad', sans-serif;
+}
+.header-bg{
+	text-align: center;
+}
+.header-bg .logo{
+	width: 800px;
+	height:auto;
+}
+#section-2{
+	width: 100%;
+	height: auto;
+	padding: 15px;
+}
+#section-2 ul.anchor-kommands{
+	list-style: none;
+	float: left;
+}
+#section-2 li.anchor{
+	list-style-type: none;
+	display: inline-block;
+	padding: 5px;
+}
+#section-2 li.anchor a{
+	color: #000;
+	text-decoration: none;
+	padding: 5px;
+}
+#section-2 li.anchor a:hover{
+	background-color: #093; 
+	color:#fff !important; 
+	padding: 5px;
+}
+#section-2 .fon{
+	background-color: #009933;
+	color: #fff !important;
+	padding: 5px;
+}
+#section-2 li.fon a{
+	color: #fff;
+	text-decoration: none;
+}
+.panel{
+	box-shadow: 0 0 10px rgba(0,0,0,0.5)
+}
+.panel-default>.panel-heading{
+	border-bottom: none;
+}
+.nav-tabs{border-bottom: 1px solid #093;}
+.nav>li>a{
+	color: #000;
+}
+.nav>li>a:hover{
+	color: #093;
+	background:transparent;
+	border:none; 
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus{
+	color: #009933;
+	font-weight: 400;
+	border: 1px solid #009933; 
+	border-bottom-color: transparent;
+}
+.person-club{
+	border-top: 1px solid #093; 
+	margin: 10px 5px 0 5px;
+	/*background-color: #3776b1;*/
+}
+ul.list-person-club{
+	list-style: none;
+	float: left;
+	margin: 10px;
+	padding: 5px;
+}
+.list-person-club li.item{
+	width: 300px;
+	border-bottom: 1px solid #093;
+	/*border-top: 1px solid #6a9ecf;*/
+	margin-bottom: 5px;
+}
+.list-person-club li.item:hover{
+	width: 300px;
+	background-color: #093;
+	border-top: none;
+	color: #fff;
+}
+img.poto-person-club{
+	width: 100px; 
+	height: 100px;
+	margin: 5px;
+}
+.nomer-person-club{
+	font-size: 18px;
+	font-weight: 600;
+	padding: 0;
+	margin: 0;
+}
+.name-person-club{
+	padding: 0;
+	margin: 0;
+	display: inline-block;
+}
+.poz-person-club{
+	font-size: 14px !important;
+	padding: 0;
+	margin: 0;
+}
+
+#treners{
+	display: none;
+}
+.table-stundings{
+	margin: 10px;
+	padding: 5px;
+}
+.table thead>tr>th, .table tbody>tr>th, .table tfoot>tr>th, .table thead>tr>td, .table tbody>tr>td, .table tfoot>tr>td{
+	border: 1px solid #ddd !important;
+	padding: 5px;
+	text-align: center;
+	vertical-align: inherit;
+}
+.fc-logo img{
+	width: 30px;
+	height: 30px;
+}

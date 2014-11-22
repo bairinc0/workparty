@@ -1,0 +1,14 @@
+$(document).ready(function(){
+	$("#coaches").click(function(){
+		$("#igroki").hide();
+		$("#treners").show();
+		$("#coaches").parent().addClass("fon");
+		$("#players").parent().removeClass("fon");
+	});
+	$("#players").click(function(){
+		$("#igroki").show();
+		$("#treners").hide();
+		$("#players").parent().addClass("fon");
+		$("#coaches").parent().removeClass("fon");
+	});
+});
